@@ -9,7 +9,7 @@ const port = process.env.PORT;
 const app = express();
 
 // - Middlewares
-app.use(cors(origin="react-amz-clone.web.app"));
+app.use(cors(origin="react-azn-clone.web.app"));
 app.use(express.json());
 
 // - API Routes
